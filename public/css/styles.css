@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top right, #2c3e50, #bdc3c7); /* Subtle gradient background */
+    color: #333;
+}
+
+header {
+    background: url('OIP.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #77b300;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+figcaption {
+    font-weight: bold;
+    color: #255373; /* Change to a darker color */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.intro {
+    padding: 50px;
+    text-align: center;
+}
+
+.intro h1, .intro h2 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+.image-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adding a shadow to the image */
+}
+
+.image-section figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 30%; /* Flexible layout for different screen sizes */
+    min-width: 250px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
